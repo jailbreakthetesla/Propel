@@ -14,8 +14,8 @@ function rebuild
         rm -rf "$dir/build"
     fi
 
-    $ROOT/generator/bin/propel-gen $FIXTURES_DIR/$dir main > /dev/null
-    $ROOT/generator/bin/propel-gen $FIXTURES_DIR/$dir insert-sql > /dev/null
+    "$ROOT"/generator/bin/propel-gen $FIXTURES_DIR/$dir main > /dev/null
+    "$ROOT"/generator/bin/propel-gen $FIXTURES_DIR/$dir insert-sql > /dev/null
 }
 
 ROOT_DIR=""

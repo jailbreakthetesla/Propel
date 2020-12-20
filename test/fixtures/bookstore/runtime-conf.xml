@@ -20,8 +20,8 @@
 					<!--
 					For MySQL and Oracle you must specify username + password separate from DSN:
 					-->
-					<user>root</user>
-					<password></password>
+					<user>propeltest</user>
+					<password>propeltest</password>
 					<options>
 						<option id="ATTR_PERSISTENT">false</option>
 					</options>
